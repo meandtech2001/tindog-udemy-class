@@ -1,0 +1,179 @@
+
+
+#title {
+  background-color: #ff4c68;
+  margin-bottom: -150px;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: 'Roboto', sans-serif;
+}
+.navbar-item{
+  font-size: 1rem;
+  padding: 0px 1rem;
+}
+
+.row h1{
+  font-family:"Montserrat";
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+.container-title{
+  padding:3% 15%;
+}
+
+.image1{
+  width: 60%;
+  transform: rotate(25deg);
+  position: relative;
+  left: 20%;
+  margin-top: 10px;
+}
+
+.title-row{
+  color: white;
+  font-size: 3rem;
+}
+
+.b1{
+  color: #ef8172;
+}
+
+.b1:hover{
+  color:#ff4c68 ;
+}
+
+#features{
+  z-index: 1;
+  background-color: white;
+  position: relative;
+
+}
+.features-div{
+  text-align: center;
+  padding: 2rem 2rem;
+  margin: 4rem 0;
+  line-height: 2rem;
+}
+
+.features-div h3{
+  font-size: 1.5rem;
+}
+.features-div p{
+  color:#8f8f8f;
+}
+
+.container-feature{
+  width:66%;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  font-family: "Montserrat";
+  text-align: center;
+  color: white;
+  padding: 2% 7%;
+}
+
+#testimonials h2{
+font-size: 2.5rem;
+}
+
+.test-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 15px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.heading{
+  text-align: center;
+  padding-top: 10%;
+  font-size: 20px;
+}
+.heading h2{
+  font-size: 45px;
+}
+.rows{
+  text-align: center;
+  padding: 7% 15%;
+}
+
+h2{
+  font-weight: bold;
+   font-family: "Montserrat";
+}
+
+.cards{
+  padding: 3% 2%;
+}
+.btn-block{
+  width: 70%;
+}
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#cta h3{
+  font-family: "Montserrat";
+  color: #fff;
+  font-weight: bolder;
+  font-size: 3.4rem;
+  margin-bottom: 50px;
+}
+.btnn{
+  word-spacing: 2rem;
+}
+
+@media (max-width : 1024px){
+ #title{
+      text-align:center;
+ }
+ .image1{
+      position: static;
+      transform: rotate(0);
+ }
+}
+@media (max-width : 1180px) and (min-width : 980px){
+  #title{
+       text-align:center;
+       margin-bottom: 100px;
+  }
+ }
+
+ #footer{
+   padding: 7% 15%;
+   text-align: center;
+   font-family: "Roboto";
+   color: gray;
+   word-spacing: 3px;
+ }
+
+ .social{
+  color: black;
+  padding-bottom: 10px;
+  word-spacing: 20px;
+ }
